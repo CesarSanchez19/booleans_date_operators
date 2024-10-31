@@ -9,27 +9,27 @@ let modulo = numOne % numTwo; // Calcula el módulo (residuo) de numOne dividido
 let exponente = numOne ** numTwo; // Calcula numOne elevado a la potencia de numTwo y lo almacena en la variable exponente
 
 // Imprime en la consola los resultados de las operaciones aritméticas
-console.log(suma, resta, multiplicacion, division, modulo, exponente); 
+//console.log(suma, resta, multiplicacion, division, modulo, exponente); 
 
 const PI = Math.PI; // Declara una constante PI y le asigna el valor de PI de la clase Math
 let radius = 100; // Declara una variable radius y le asigna el valor 100
 
 // Calcula el área del círculo
 const areaOfCircle = PI * radius ** 2; // Usa la fórmula del área (π * radio^2) y almacena el resultado en areaOfCircle
-console.log(areaOfCircle); // Imprime en la consola el área del círculo
+//console.log(areaOfCircle); // Imprime en la consola el área del círculo
 
 // Calcular el peso de un objeto
 const gravity = 9.81; // Declara una constante gravity y le asigna el valor de la gravedad en m/s²
 let mass = 72; // Declara una variable mass y le asigna el valor 72 kg
 
 const weight = mass * gravity; // Calcula el peso (masa * gravedad) y lo almacena en la variable weight
-console.log(weight); // Imprime en la consola el peso del objeto
+//console.log(weight); // Imprime en la consola el peso del objeto
 
 const boilingPoint = 100; // Declara una constante boilingPoint y le asigna el valor 100 (punto de ebullición del agua en °C)
 const bodyTemp = 37; // Declara una constante bodyTemp y le asigna el valor 37 (temperatura normal del cuerpo humano en °C)
 
 // Imprime en la consola información sobre el punto de ebullición, la temperatura del cuerpo y la gravedad
-console.log(`El punto de ebullición del agua es de ${boilingPoint} grados Celsius \nLa temperatura del cuerpo humano es de ${bodyTemp} grados Celsius \nLa gravedad de la tierra es ${gravity} m/s²`);
+//console.log(`El punto de ebullición del agua es de ${boilingPoint} grados Celsius \nLa temperatura del cuerpo humano es de ${bodyTemp} grados Celsius \nLa gravedad de la tierra es ${gravity} m/s²`);
 
 // Espera a que todo el contenido del documento esté completamente cargado.
 document.addEventListener('DOMContentLoaded', function () {
